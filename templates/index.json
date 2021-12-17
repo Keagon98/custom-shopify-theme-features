@@ -161,8 +161,8 @@
           "type": "html",
           "settings": {
             "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
-            "width": "100%",
-            "alignment": "top-middle"
+            "width": "50%",
+            "alignment": "center"
           }
         },
         "133ab2bf-c6b8-4bbf-9dc1-76d1f289904f": {
