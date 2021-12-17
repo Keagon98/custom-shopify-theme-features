@@ -1,618 +1,94 @@
 {
   "current": {
-    "heading_color": "#0f0e0e",
-    "text_color": "#677279",
-    "accent_color": "#00badb",
-    "link_color": "#00badb",
-    "border_color": "#e1e3e4",
-    "background": "#ffffff",
-    "secondary_background": "#ffffff",
-    "error_color": "#ff0000",
-    "success_color": "#00aa00",
-    "primary_button_background": "#29e5c1",
-    "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#29e5c1",
-    "secondary_button_text_color": "#ffffff",
-    "header_background": "#ffffff",
-    "header_text_color": "#0f0e0e",
-    "header_light_text_color": "#a3afef",
-    "header_accent_color": "#29e5c1",
-    "footer_background_color": "#ffffff",
-    "footer_heading_text_color": "#0f0e0e",
-    "footer_body_text_color": "#0f0e0e",
-    "footer_accent_color": "#29e5c1",
-    "product_on_sale_accent": "#ee0000",
-    "product_in_stock_color": "#008a00",
-    "product_low_stock_color": "#ee0000",
-    "product_sold_out_color": "#8a9297",
-    "product_label_1_background": "#008a00",
-    "product_label_2_background": "#00a500",
-    "product_star_color": "#ffbd00",
-    "base_text_font_size": 16,
-    "heading_font": "montserrat_n6",
-    "text_font": "montserrat_n4",
-    "underline_links": true,
-    "currency_code_enabled": false,
-    "animation_image_zoom": true,
-    "search_mode": "product,page",
-    "show_vendor": true,
-    "show_secondary_image": true,
-    "show_reviews_badge": true,
-    "show_discount": true,
-    "discount_mode": "saving",
-    "product_price_position": "after_title",
-    "product_image_size": "tall",
-    "show_color_swatch": true,
-    "show_inventory_quantity": true,
-    "low_inventory_threshold": 4,
-    "cart_type": "drawer",
-    "cart_empty_button_link": "shopify:\/\/collections\/all",
-    "cart_show_checkout_button": true,
-    "cart_show_free_shipping_threshold": false,
-    "cart_free_shipping_threshold": "50",
-    "social_facebook": "",
-    "social_twitter": "",
-    "social_pinterest": "",
-    "social_instagram": "",
-    "social_vimeo": "",
-    "social_tumblr": "",
-    "social_youtube": "",
-    "social_linkedin": "",
-    "social_snapchat": "",
-    "social_fancy": "",
-    "favicon": "shopify:\/\/shop_images\/e-Tag_resize.png",
-    "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ecomplete-logo-header.png",
-    "checkout_logo_position": "center",
-    "checkout_logo_size": "large",
-    "checkout_body_background_image": "",
-    "checkout_body_background_color": "#ffffff",
-    "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_image": "",
-    "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_accent_color": "#3ecbae",
-    "checkout_button_color": "#3ecbae",
-    "checkout_error_color": "#ff0000",
-    "share_image": "",
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#334FB4",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
     "sections": {
-      "header": {
-        "type": "header",
-        "blocks": {
-          "30a164c4-7229-4946-b2af-500845c428c3": {
-            "type": "mega_menu",
-            "settings": {
-              "menu_item": "ALL PRODUCTS",
-              "image_1": "shopify:\/\/shop_images\/Header---2_550x_3aad5085-735f-464c-a196-b956a1ffe7a0.jpg",
-              "image_1_heading": "New JBL Clip Portable Speakers",
-              "image_1_text": "From R123,45 only!",
-              "image_1_link": "shopify:\/\/products\/jbl-clip-3-portable-waterproof-wireless-bluetooth-speaker",
-              "image_2_heading": "Your image",
-              "image_2_text": "Tell your story",
-              "image_2_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "30a164c4-7229-4946-b2af-500845c428c3"
-        ],
-        "settings": {
-          "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/ecomplete-logo-header.png",
-          "logo_max_width": 205,
-          "mobile_logo_max_width": 105,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "navigation_menu": "main-menu",
-          "background": "#29e5c1",
-          "link_colour": "#ffffff",
-          "navigation_mobile_menu": "",
-          "desktop_navigation_layout": "inline",
-          "desktop_navigation_open_trigger": "hover",
-          "show_navigation_social_media": true,
-          "navigation_phone_number": "Call us 000-000-0000",
-          "navigation_email": "info@yourwebsite.com",
-          "show_condensed_search": true,
-          "show_search_filter": true,
-          "search_menu": "",
-          "show_search_menu_title": true
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "text",
-            "settings": {
-              "title": "About the shop",
-              "content": "<p>Vamus rhoncus dolor quis nisl ullamcorper, sed gravida tellus fringilla. Donec vestibulum pellentesque dolor ac semper. Phasellus pharetra non massa ac semper.<\/p><p><br\/><br\/><\/p>"
-            }
-          },
-          "footer-1": {
-            "type": "links",
-            "settings": {
-              "menu": "footer"
-            }
-          },
-          "8736831d-75aa-4638-98f4-85d6d06e8cb3": {
-            "type": "links",
-            "settings": {
-              "menu": "information"
-            }
-          },
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter",
-              "subheading": "<p>We'll keep you up to date on all things Amazing ;)<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "8736831d-75aa-4638-98f4-85d6d06e8cb3",
-          "footer-2"
-        ],
-        "settings": {
-          "show_social_media": true,
-          "show_payment_icons": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_cookie_bar": false,
-          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
-          "accept_button": "Accept"
-        }
-      },
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-          "show_announcement": true,
-          "background": "#ffffff",
-          "text_color": "#3f3f3f",
-          "text": "FREE SHIPPING on orders over R500!",
-          "text_position": "left",
-          "link": "",
-          "show_newsletter": true,
-          "newsletter_button": "Subscribe & Save",
-          "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>Sign up with your email to receive news on the latest products, competitions & discounts<\/p>"
-        }
-      },
-      "popups": {
-        "type": "popups",
         "blocks": {
-          "7d910164-bcc2-4178-8791-7e81518215b9": {
-            "type": "newsletter",
+          "announcement-bar-0": {
+            "type": "announcement",
             "settings": {
-              "show_only_on_index": true,
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "Newsletter",
-              "content": "<p>Join our newsletter to receive emails on the latest products<\/p>",
-              "show_newsletter": true,
-              "apparition_delay": 5
+              "color_scheme": "background-1"
             }
           }
         },
         "block_order": [
-          "7d910164-bcc2-4178-8791-7e81518215b9"
+          "announcement-bar-0"
         ],
         "settings": {
         }
-      },
-      "static-text-with-icons": {
-        "type": "static-text-with-icons",
-        "settings": {
-          "show_section": false,
-          "stack_mobile": false
-        }
       }
-    },
-    "content_for_index": [
-
-    ]
+    }
   },
   "presets": {
-    "Metal": {
-      "heading_color": "#1e2d7d",
-      "text_color": "#677279",
-      "accent_color": "#00badb",
-      "link_color": "#00badb",
-      "border_color": "#e1e3e4",
-      "background": "#f3f5f6",
-      "secondary_background": "#ffffff",
-      "error_color": "#ff0000",
-      "success_color": "#00aa00",
-      "primary_button_background": "#00badb",
-      "primary_button_text_color": "#ffffff",
-      "secondary_button_background": "#1e2d7d",
-      "secondary_button_text_color": "#ffffff",
-      "header_background": "#1e2d7d",
-      "header_text_color": "#ffffff",
-      "header_light_text_color": "#a3afef",
-      "header_accent_color": "#00badb",
-      "product_on_sale_accent": "#ee0000",
-      "product_in_stock_color": "#008a00",
-      "product_low_stock_color": "#ee0000",
-      "product_sold_out_color": "#8a9297",
-      "product_label_1_background": "#008a00",
-      "product_label_2_background": "#00a500",
-      "product_star_color": "#ffbd00",
-      "footer_background_color": "#f3f5f6",
-      "footer_heading_text_color": "#1e2d7d",
-      "footer_body_text_color": "#677279",
-      "footer_accent_color": "#00badb",
-      "base_text_font_size": 16,
-      "heading_font": "din_next_n5",
-      "text_font": "din_next_n4",
-      "underline_links": true,
-      "animation_image_zoom": true,
-      "search_mode": "product,article",
-      "show_vendor": true,
-      "show_secondary_image": true,
-      "product_price_position": "after_title",
-      "product_image_size": "natural",
-      "show_discount": true,
-      "discount_mode": "saving",
-      "show_color_swatch": false,
-      "show_inventory_quantity": false,
-      "low_inventory_threshold": 0,
-      "show_reviews_badge": false,
-      "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
-      "cart_show_checkout_button": true,
-      "cart_show_free_shipping_threshold": false,
-      "cart_free_shipping_threshold": "50",
-      "share_image": "",
-      "social_facebook": "",
-      "social_twitter": "",
-      "social_pinterest": "",
-      "social_instagram": "",
-      "social_vimeo": "",
-      "social_tumblr": "",
-      "social_youtube": "",
-      "social_linkedin": "",
-      "social_snapchat": "",
-      "social_fancy": "",
-      "favicon": "",
-      "checkout_header_image": "",
-      "checkout_logo_image": "",
-      "checkout_logo_position": "left",
-      "checkout_logo_size": "medium",
-      "checkout_body_background_image": "",
-      "checkout_body_background_color": "#fff",
-      "checkout_input_background_color_mode": "white",
-      "checkout_sidebar_background_image": "",
-      "checkout_sidebar_background_color": "#fafafa",
-      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_accent_color": "#00badb",
-      "checkout_button_color": "#00badb",
-      "checkout_error_color": "#ff0000",
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
       "sections": {
-        "header": {
-          "type": "header",
-          "settings": {
-            "logo": "",
-            "logo_max_width": 140,
-            "mobile_logo_max_width": 100,
-            "navigation_menu": "main-menu",
-            "desktop_navigation_layout": "inline",
-            "desktop_navigation_open_trigger": "hover",
-            "navigation_phone_number": "Call us 000-000-0000",
-            "navigation_email": "info@yourwebsite.com",
-            "search_menu": ""
-          }
-        },
-        "footer": {
-          "type": "footer",
+        "announcement-bar": {
+          "type": "announcement-bar",
           "blocks": {
-            "footer-0": {
-              "type": "text",
+            "announcement-bar-0": {
+              "type": "announcement",
               "settings": {
-                "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-              }
-            },
-            "footer-1": {
-              "type": "links",
-              "settings": {
-                "menu": "footer"
-              }
-            },
-            "footer-2": {
-              "type": "newsletter",
-              "settings": {
-                "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "color_scheme": "background-1"
               }
             }
           },
           "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
+            "announcement-bar-0"
           ],
           "settings": {
-            "show_social_media": true,
-            "show_payment_icons": true
-          }
-        },
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "settings": {
-            "background": "#1e2d7d",
-            "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
-            "newsletter_button": "Subscribe & Save",
-            "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         }
       }
     },
-    "Wood": {
-      "heading_color": "#3a2a2f",
-      "text_color": "#3a2a2f",
-      "accent_color": "#ff6128",
-      "link_color": "#ff6128",
-      "border_color": "#e7e2de",
-      "background": "#f7f4f2",
-      "secondary_background": "#ffffff",
-      "error_color": "#f71b1b",
-      "success_color": "#48b448",
-      "primary_button_background": "#ff6128",
-      "primary_button_text_color": "#ffffff",
-      "secondary_button_background": "#3a2a2f",
-      "secondary_button_text_color": "#ffffff",
-      "header_background": "#3a2a2f",
-      "header_text_color": "#ffffff",
-      "header_light_text_color": "#e9e2dd",
-      "header_accent_color": "#ff6128",
-      "product_on_sale_accent": "#ee0000",
-      "product_in_stock_color": "#008a00",
-      "product_low_stock_color": "#ee0000",
-      "product_sold_out_color": "#d1d1d4",
-      "product_label_1_background": "#ff6128",
-      "product_label_2_background": "#a95ebe",
-      "product_star_color": "#ffb647",
-      "footer_background_color": "#f7f4f2",
-      "footer_heading_text_color": "#3a2a2f",
-      "footer_body_text_color": "#3a2a2f",
-      "footer_accent_color": "#ff6128",
-      "base_text_font_size": 15,
-      "heading_font": "itc_avant_garde_gothic_n5",
-      "text_font": "basic_commercial_n4",
-      "underline_links": true,
-      "animation_image_zoom": true,
-      "search_mode": "product,article,page",
-      "show_vendor": true,
-      "show_secondary_image": true,
-      "show_discount": true,
-      "discount_mode": "percentage",
-      "product_price_position": "after_title",
-      "product_image_size": "square",
-      "show_color_swatch": false,
-      "show_inventory_quantity": true,
-      "low_inventory_threshold": 1,
-      "show_reviews_badge": false,
-      "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
-      "cart_show_checkout_button": true,
-      "cart_show_free_shipping_threshold": true,
-      "cart_free_shipping_threshold": "50",
-      "checkout_logo_position": "center",
-      "checkout_logo_size": "medium",
-      "checkout_body_background_image": "",
-      "checkout_body_background_color": "#fff",
-      "checkout_input_background_color_mode": "white",
-      "checkout_sidebar_background_image": "",
-      "checkout_sidebar_background_color": "#f7f4f2",
-      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_accent_color": "#ff6128",
-      "checkout_button_color": "#ff6128",
-      "checkout_error_color": "#f71b1b",
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
       "sections": {
-        "header": {
-          "type": "header",
-          "settings": {
-            "logo": "",
-            "logo_max_width": 140,
-            "mobile_logo_max_width": 100,
-            "navigation_menu": "main-menu",
-            "desktop_navigation_layout": "inline",
-            "desktop_navigation_open_trigger": "hover",
-            "navigation_phone_number": "Call us 000-000-0000",
-            "navigation_email": "info@yourwebsite.com",
-            "search_menu": ""
-          }
-        },
         "footer": {
           "type": "footer",
           "blocks": {
-            "footer-0": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
               "type": "text",
               "settings": {
-                "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-              }
-            },
-            "footer-1": {
-              "type": "links",
-              "settings": {
-                "menu": "footer"
-              }
-            },
-            "footer-2": {
-              "type": "newsletter",
-              "settings": {
-                "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
               }
             }
           },
           "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
+            "menu",
+            "text"
           ],
           "settings": {
-            "show_social_media": true,
-            "show_payment_icons": true
-          }
-        },
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "settings": {
-            "background": "#3a2a2f",
-            "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
-            "newsletter_button": "Subscribe & Save",
-            "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
-          }
-        }
-      }
-    },
-    "Fabric": {
-      "heading_color": "#222021",
-      "text_color": "#616161",
-      "accent_color": "#cb1836",
-      "link_color": "#cb1836",
-      "border_color": "#e8e8e8",
-      "background": "#f5f5f5",
-      "secondary_background": "#ffffff",
-      "error_color": "#cf0e0e",
-      "success_color": "#1c7b36",
-      "primary_button_background": "#cb1836",
-      "primary_button_text_color": "#ffffff",
-      "secondary_button_background": "#222021",
-      "secondary_button_text_color": "#ffffff",
-      "header_background": "#222021",
-      "header_text_color": "#ffffff",
-      "header_light_text_color": "#e8e8e8",
-      "header_accent_color": "#cb1836",
-      "footer_background_color": "#222021",
-      "footer_heading_text_color": "#ffffff",
-      "footer_body_text_color": "#ffffff",
-      "footer_accent_color": "#cb1836",
-      "product_on_sale_accent": "#cf0e0e",
-      "product_in_stock_color": "#1c7b36",
-      "product_low_stock_color": "#cf0e0e",
-      "product_sold_out_color": "#8a9297",
-      "product_label_1_background": "#3f6ab1",
-      "product_label_2_background": "#8a44ae",
-      "product_star_color": "#ffbd00",
-      "base_text_font_size": 16,
-      "heading_font": "avenir_next_n7",
-      "text_font": "avenir_next_n5",
-      "underline_links": true,
-      "animation_image_zoom": true,
-      "search_mode": "product,article",
-      "show_vendor": true,
-      "show_secondary_image": true,
-      "show_discount": true,
-      "discount_mode": "percentage",
-      "product_price_position": "before_title",
-      "product_image_size": "square",
-      "show_color_swatch": true,
-      "show_inventory_quantity": true,
-      "low_inventory_threshold": 2,
-      "show_reviews_badge": true,
-      "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
-      "cart_show_checkout_button": true,
-      "cart_show_free_shipping_threshold": true,
-      "cart_free_shipping_threshold": "49",
-      "social_facebook": "",
-      "social_twitter": "",
-      "social_pinterest": "",
-      "social_instagram": "",
-      "social_vimeo": "",
-      "social_tumblr": "",
-      "social_youtube": "",
-      "social_linkedin": "",
-      "social_snapchat": "",
-      "social_fancy": "",
-      "favicon": "",
-      "checkout_header_image": "",
-      "checkout_logo_image": "",
-      "checkout_logo_position": "left",
-      "checkout_logo_size": "medium",
-      "checkout_body_background_image": "",
-      "checkout_body_background_color": "#fff",
-      "checkout_input_background_color_mode": "white",
-      "checkout_sidebar_background_image": "",
-      "checkout_sidebar_background_color": "#f5f5f5",
-      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "checkout_accent_color": "#cb1836",
-      "checkout_button_color": "#cb1836",
-      "checkout_error_color": "#ff0000",
-      "sections": {
-        "header": {
-          "type": "header",
-          "settings": {
-            "logo": "",
-            "logo_max_width": 140,
-            "mobile_logo_max_width": 100,
-            "navigation_menu": "main-menu",
-            "desktop_navigation_layout": "inline",
-            "desktop_navigation_open_trigger": "hover",
-            "navigation_phone_number": "Call us 000-000-0000",
-            "navigation_email": "info@yourwebsite.com",
-            "search_menu": ""
-          }
-        },
-        "footer": {
-          "type": "footer",
-          "blocks": {
-            "footer-0": {
-              "type": "text",
-              "settings": {
-                "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-              }
-            },
-            "footer-1": {
-              "type": "links",
-              "settings": {
-                "menu": "footer"
-              }
-            },
-            "footer-2": {
-              "type": "newsletter",
-              "settings": {
-                "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
-              }
-            }
-          },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
-          "settings": {
-            "show_social_media": true,
-            "show_payment_icons": true
-          }
-        },
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "settings": {
-            "background": "#222021",
-            "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
-            "newsletter_button": "Subscribe & Save",
-            "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "color_scheme": "accent-1"
           }
         }
       }
