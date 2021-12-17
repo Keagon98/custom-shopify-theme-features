@@ -1,34 +1,22 @@
 {
   "sections": {
     "main": {
-      "type": "main-article",
+      "type": "main-blog-post",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
+        "newsletter": {
+          "type": "newsletter",
           "settings": {
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
+        "social-media": {
+          "type": "social_media",
           "settings": {
           }
         }
       },
       "block_order": [
-        "featured_image",
-        "title",
-        "share",
-        "content"
+        "newsletter",
+        "social-media"
       ],
       "settings": {
       }

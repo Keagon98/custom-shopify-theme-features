@@ -1,13 +1,130 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections",
+      "type": "main-collections-list",
       "settings": {
-        "image_ratio": "square"
+        "collections_to_show": "all",
+        "collection_linklist": "",
+        "show_collection_title": true,
+        "show_collection_overlay": true,
+        "collection_overlay_opacity": 20
+      }
+    },
+    "163586093236f1d877": {
+      "type": "logo-list",
+      "blocks": {
+        "163586093236f1d877-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jbl_2x_280x_be4ad86a-e39b-4b2b-a6e9-ff2972086121.jpg",
+            "link": "shopify:\/\/collections\/speakers"
+          }
+        },
+        "163586093236f1d877-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lg_2x_280x_e7ad7364-7fcc-40ba-859d-a32da9a7271b.jpg",
+            "link": "shopify:\/\/collections\/tv-accessories"
+          }
+        },
+        "163586093236f1d877-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sony_2x_280x_f07509df-3db2-4014-bc20-413a1cf2ea43.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "163586093236f1d877-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pioneer_2x_280x_db3bb9e1-3899-4617-8a90-b17fa56829aa.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "163586093236f1d877-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/harman_kardon_2x_280x_4d8b91cb-bc6f-4ec1-a3f0-41ca3bdf30d3.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "163586093236f1d877-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/klipsch_2x_280x_c6943921-2036-4e95-9c7c-02000c42fcc7.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163586093236f1d877-0",
+        "163586093236f1d877-1",
+        "163586093236f1d877-2",
+        "163586093236f1d877-3",
+        "163586093236f1d877-4",
+        "163586093236f1d877-5"
+      ],
+      "settings": {
+        "title": "Brands",
+        "link_title": "",
+        "link": "",
+        "horizontal_alignment": "center"
+      }
+    },
+    "163587607206eb4c40": {
+      "type": "text-with-icons",
+      "blocks": {
+        "163587607206eb4c40-0": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-delivery",
+            "custom_icon": "shopify:\/\/shop_images\/Shopify_USPs_1.jpg",
+            "title": "Free delivery for orders over R500",
+            "content": "<p>We deliver in 48 hours max!<\/p>"
+          }
+        },
+        "163587607206eb4c40-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-returns",
+            "custom_icon": "shopify:\/\/shop_images\/Shopify_USPs_2.jpg",
+            "title": "Satisfied or refunded",
+            "content": "<p>Free returns within 14 days<\/p>"
+          }
+        },
+        "163587607206eb4c40-2": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Shopify_USPs_3.jpg",
+            "title": "We are available 24\/7",
+            "content": "<p>Contact us by chat, mail or phone<\/p>"
+          }
+        },
+        "163587607206eb4c40-3": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-secure-payment",
+            "custom_icon": "shopify:\/\/shop_images\/Shopify_USPs_4.jpg",
+            "title": "100% Secure payments",
+            "content": "<p>Visa, Mastercard, Amex, Paypal<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163587607206eb4c40-0",
+        "163587607206eb4c40-1",
+        "163587607206eb4c40-2",
+        "163587607206eb4c40-3"
+      ],
+      "settings": {
+        "stack_mobile": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163586093236f1d877",
+    "163587607206eb4c40"
   ]
 }

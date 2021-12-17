@@ -4,9 +4,15 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "newsletter"
   ]
 }

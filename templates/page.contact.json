@@ -5,15 +5,14 @@
       "settings": {
       }
     },
-    "form": {
+    "contact-form": {
       "type": "contact-form",
       "settings": {
-        "heading": ""
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "contact-form"
   ]
 }
