@@ -43,7 +43,7 @@
           "type": "liquid",
           "settings": {
             "title": "Description",
-            "liquid": "{{ product.description }}\n\n{% for image in product.images %}\n  <img src=\"{{ image.src | product_img_url: 'Large' }}\">\n{% endfor %}",
+            "liquid": "{{ product.description }}\n\n{% for image in product.images %}\n  <img src=\"{{ image.src | product_img_url: 'Large' }}\">\n{% endfor %}\n\n{% assign videos = product.media | where: \"media_type\", \"video\" %}\n{% for video in videos %}\n  {{ video.alt }}\n{% endfor %}",
             "display_mode": "collapse"
           }
         },
