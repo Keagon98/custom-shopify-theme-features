@@ -45,6 +45,14 @@
             "liquid": "{{ product.title }}",
             "display_mode": "collapse"
           }
+        },
+        "23dc10e5-c081-44c8-8fc4-1a4418a34f57": {
+          "type": "liquid",
+          "settings": {
+            "title": "{{ product.vendor }}",
+            "liquid": "{{ product.description }}",
+            "display_mode": "collapse"
+          }
         }
       },
       "block_order": [
@@ -53,7 +61,8 @@
         "bc4d7d4d-5f3e-4ee8-94d0-4ec9a855f14c",
         "buy_buttons",
         "description",
-        "9de40edf-467c-45fe-a4ab-255051d7a377"
+        "9de40edf-467c-45fe-a4ab-255051d7a377",
+        "23dc10e5-c081-44c8-8fc4-1a4418a34f57"
       ],
       "settings": {
         "image_size": "small",
