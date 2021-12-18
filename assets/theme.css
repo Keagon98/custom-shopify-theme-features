@@ -13820,9 +13820,17 @@ shopify-payment-terms {
   flex-wrap: wrap;
   width: auto;
   margin-bottom: 30px;
+  margin-left: -30px;
 }
 
 .align--top-middle {
+  text-align: center;
+}
+
+.align--center {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
   text-align: center;
 }
 
@@ -13844,6 +13852,33 @@ shopify-payment-terms {
   display: block;
 }
 
+.custom__item-inner {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  max-width: 100%;
+}
+
 .rte {
   margin-bottom: 15px;
+}
+
+.rte>div {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .custom-content {
+      margin-bottom: 15px;
+      margin-left: -15px;
+  }
+
+  .custom__item {
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
 }
