@@ -13852,12 +13852,12 @@ shopify-payment-terms {
   display: block;
 }
 
-.custom__item-inner {
+/* .custom__item-inner {
   position: relative;
   display: inline-block;
   text-align: left;
   max-width: 100%;
-}
+} */
 
 .rte {
   margin-bottom: 15px;
