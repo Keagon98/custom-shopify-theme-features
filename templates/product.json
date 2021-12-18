@@ -35,7 +35,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "display_mode": "show_all"
+            "display_mode": "collapse"
           }
         },
         "9de40edf-467c-45fe-a4ab-255051d7a377": {
