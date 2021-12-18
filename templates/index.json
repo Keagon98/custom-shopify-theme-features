@@ -168,7 +168,7 @@
         "133ab2bf-c6b8-4bbf-9dc1-76d1f289904f": {
           "type": "html",
           "settings": {
-            "code": "<iframe width=\"1280\" height=\"720\" src=\"https:\/\/www.youtube.com\/embed\/zCN0V130PMg?list=PLcKa-34z76PvI5KvI5S2JGj0RcBVuz3jg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
             "width": "50%",
             "alignment": "center"
           }
