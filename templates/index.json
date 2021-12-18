@@ -184,6 +184,31 @@
       ],
       "settings": {
       }
+    },
+    "1639822298e01d59d7": {
+      "type": "advanced-content",
+      "blocks": {
+        "1639822298f031b519-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+            "width": "50%"
+          }
+        },
+        "3b31ec66-73bf-4106-83ad-e6d35a211ef2": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+            "width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "1639822298f031b519-0",
+        "3b31ec66-73bf-4106-83ad-e6d35a211ef2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -193,6 +218,7 @@
     "collage",
     "video",
     "multi_column",
-    "1639782074284a2c50"
+    "1639782074284a2c50",
+    "1639822298e01d59d7"
   ]
 }
