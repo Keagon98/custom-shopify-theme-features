@@ -60,6 +60,15 @@
           "settings": {
             "content": ""
           }
+        },
+        "a4125240-fd68-40ed-876d-0e3a1641b921": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "",
+            "display_mode": "show_all"
+          }
         }
       },
       "block_order": [
@@ -70,7 +79,8 @@
         "description",
         "b2544c6e-901f-4db1-8510-1c770d5bedc2",
         "9de40edf-467c-45fe-a4ab-255051d7a377",
-        "8497a996-a79c-4f99-96c6-6add7363245f"
+        "8497a996-a79c-4f99-96c6-6add7363245f",
+        "a4125240-fd68-40ed-876d-0e3a1641b921"
       ],
       "settings": {
         "image_size": "small",
