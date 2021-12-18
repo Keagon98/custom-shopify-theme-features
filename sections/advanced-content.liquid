@@ -2,10 +2,6 @@
 <div class="custom-content">
   {% for block in section.blocks %}
     {% case block.settings.width %}
-      {% when '25%' %}
-        {%- assign block_width = 'small--one-whole one-quarter' -%}
-      {% when '33%' %}
-        {%- assign block_width = 'small--one-whole one-third' -%}
       {% when '50%' %}
         {%- assign block_width = 'small--one-whole one-half' -%}
       {% when '66%' %}
@@ -77,8 +73,22 @@
           "label": {
             "en": "Container width"
           },
-          "default": "50%",
-        },
+          "default": "100%",
+          "options": [
+            {
+              "value": "50%",
+              "label": {
+                "en": "50%"
+              }
+            },
+            {
+              "value": "100%",
+              "label": {
+                "en": "100%"
+              }
+            }
+          ]
+        }
       ]
     }
   ],
