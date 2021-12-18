@@ -171,18 +171,18 @@
             "alignment": "center"
           }
         },
-        "133ab2bf-c6b8-4bbf-9dc1-76d1f289904f": {
+        "2e4c2bf1-3b88-47d3-9fb1-f4b005befd59": {
           "type": "html",
           "settings": {
             "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
-            "width": "100%",
+            "width": "50%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
         "16397820745c3a3cd8-0",
-        "133ab2bf-c6b8-4bbf-9dc1-76d1f289904f"
+        "2e4c2bf1-3b88-47d3-9fb1-f4b005befd59"
       ],
       "settings": {
       }
