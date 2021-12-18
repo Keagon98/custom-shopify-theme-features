@@ -160,7 +160,7 @@
         "16397820745c3a3cd8-0": {
           "type": "html",
           "settings": {
-            "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+            "code": "<iframe width=\"100%\" height=\"768\" src=\"https:\/\/www.youtube.com\/embed\/4poqZjNTZjI?list=PLcKa-34z76PvI5KvI5S2JGj0RcBVuz3jg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
             "width": "50%",
             "alignment": "center"
           }
