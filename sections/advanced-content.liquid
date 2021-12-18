@@ -2,18 +2,8 @@
 <div class="custom-content">
   {% for block in section.blocks %}
     {% case block.settings.width %}
-      {% when '25%' %}
-        {%- assign block_width = 'small--one-whole one-quarter' -%}
-      {% when '33%' %}
-        {%- assign block_width = 'small--one-whole one-third' -%}
       {% when '50%' %}
         {%- assign block_width = 'small--one-whole one-half' -%}
-      {% when '66%' %}
-        {%- assign block_width = 'small--one-whole two-thirds' -%}
-      {% when '75%' %}
-        {%- assign block_width = 'small--one-whole three-quarters' -%}
-      {% when '100%' %}
-        {%- assign block_width = 'one-whole' -%}
     {% endcase %}
     <div class="custom__item {{ block_width }} {% if block.settings.alignment %}align--{{ block.settings.alignment }}{% endif %}" {{ block.shopify_attributes }}>
       <div class="custom__item-inner custom__item-inner--{{ block.type }}">
@@ -78,7 +68,43 @@
             "en": "Container width"
           },
           "default": "50%",
+          "options": [
+            {
+              "value": "50%",
+              "label": {
+                "en": "50%"
+              }
+            }
+          ]
         },
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": {
+            "en": "Vertical alignment"
+          },
+          "default": "top-middle",
+          "options": [
+            {
+              "value": "top-middle",
+              "label": {
+                "en": "Top"
+              }
+            },
+            {
+              "value": "center",
+              "label": {
+                "en": "Middle"
+              }
+            },
+            {
+              "value": "bottom-middle",
+              "label": {
+                "en": "Bottom"
+              }
+            }
+          ]
+        }
       ]
     }
   ],
