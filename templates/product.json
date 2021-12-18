@@ -85,10 +85,28 @@
         "heading": "You may also like",
         "show_quick_buy": false
       }
+    },
+    "1639855483652c86d9": {
+      "type": "advanced-content",
+      "blocks": {
+        "16398554838e5841ba-0": {
+          "type": "html",
+          "settings": {
+            "code": "<iframe width=\"100%\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/zCN0V130PMg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "16398554838e5841ba-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1639855483652c86d9"
   ]
 }
