@@ -13808,19 +13808,18 @@ shopify-payment-terms {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-align: stretch;
-  -webkit-align-items: stretch;
-  -moz-align-items: stretch;
-  -ms-align-items: stretch;
-  -o-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: auto;
   margin-bottom: 30px;
-  margin-left: -30px;
 }
 
 .align--top-middle {
