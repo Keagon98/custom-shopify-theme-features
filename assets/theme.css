@@ -13820,7 +13820,6 @@ shopify-payment-terms {
   flex-wrap: wrap;
   width: auto;
   margin-bottom: 30px;
-  margin-left: -30px;
 }
 
 .align--top-middle {
@@ -13869,6 +13868,7 @@ shopify-payment-terms {
 
 @media screen and (max-width: 480px) {
   .custom-content {
+      flex-direction: column;
       margin-bottom: 15px;
       margin-left: -15px;
   }
@@ -13878,7 +13878,7 @@ shopify-payment-terms {
     -moz-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-left: 15px;
     margin-bottom: 15px;
+    width: 100%;
   }
 }
