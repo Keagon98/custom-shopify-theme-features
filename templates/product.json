@@ -34,7 +34,16 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
+            "display_mode": "collapse"
+          }
+        },
+        "b2544c6e-901f-4db1-8510-1c770d5bedc2": {
+          "type": "liquid",
+          "settings": {
+            "title": "Description",
+            "liquid": "{{ product.description }}\n\n{% for image in product.images %}\n  <img src=\"{{ image.src | product_img_url: 'Large' }}\">\n{% endfor %}",
             "display_mode": "collapse"
           }
         },
@@ -51,14 +60,6 @@
           "settings": {
             "content": ""
           }
-        },
-        "b2544c6e-901f-4db1-8510-1c770d5bedc2": {
-          "type": "liquid",
-          "settings": {
-            "title": "Description",
-            "liquid": "{{ product.description }}",
-            "display_mode": "collapse"
-          }
         }
       },
       "block_order": [
@@ -67,9 +68,9 @@
         "bc4d7d4d-5f3e-4ee8-94d0-4ec9a855f14c",
         "buy_buttons",
         "description",
+        "b2544c6e-901f-4db1-8510-1c770d5bedc2",
         "9de40edf-467c-45fe-a4ab-255051d7a377",
-        "8497a996-a79c-4f99-96c6-6add7363245f",
-        "b2544c6e-901f-4db1-8510-1c770d5bedc2"
+        "8497a996-a79c-4f99-96c6-6add7363245f"
       ],
       "settings": {
         "image_size": "small",
@@ -85,28 +86,10 @@
         "heading": "You may also like",
         "show_quick_buy": false
       }
-    },
-    "1639855483652c86d9": {
-      "type": "advanced-content",
-      "blocks": {
-        "16398554838e5841ba-0": {
-          "type": "html",
-          "settings": {
-            "code": "<iframe width=\"100%\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/zCN0V130PMg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
-            "width": "50%"
-          }
-        }
-      },
-      "block_order": [
-        "16398554838e5841ba-0"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "1639855483652c86d9"
+    "product-recommendations"
   ]
 }
