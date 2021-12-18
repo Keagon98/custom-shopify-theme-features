@@ -1,47 +1,30 @@
-<hr>
 <div class="custom-content">
   {% for block in section.blocks %}
-    {% case block.settings.width %}
-      {% when '50%' %}
-        {%- assign block_width = 'small--one-whole one-half' -%}
-    {% endcase %}
-    <div class="custom__item {{ block_width }} {% if block.settings.alignment %}align--{{ block.settings.alignment }}{% endif %}" {{ block.shopify_attributes }}>
-      <div class="custom__item-inner custom__item-inner--{{ block.type }}">
+    <div class="custom__item one-half">
+      <div class="custom__item-inner custom__item-inner--html">
         {% case block.type %}
           {% when 'html' %}
             {% if block.settings.code != blank %}
-              <div class="rte" data-section-id="{{ section.id }}" data-section-type="featured-content-section">
+              <div class="rte">
                 {{ block.settings.code }}
               </div>
             {% else %}
               <div class="rte text-center">
-                {{ 'homepage.onboarding.no_content' | t }}
+                <p>No Content</p>
               </div>
             {% endif %}
         {% endcase %}
       </div>
     </div>
   {% endfor %}
-  {% if section.blocks.size == 0 %}
-    <div class="wrapper">
-      <div class="grid">
-        <div class="grid__item">
-          <div class="rte text-center">
-            {{ 'homepage.onboarding.no_content' | t }}
-          </div>
-        </div>
-      </div>
-   </div>
-  {% endif %}
   </div>
-</div>
-
 
 
 {% schema %}
+
 {
   "name": {
-    "en": "Custom content"
+    "en": "2 column layout"
   },
   "max_blocks": 9,
   "blocks": [
@@ -83,7 +66,7 @@
   "presets": [
     {
       "name": {
-        "en": "Custom content"
+        "en": "2 column layout"
       },
       "category": {
         "en": "Advanced layout"

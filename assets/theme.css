@@ -13843,20 +13843,17 @@ shopify-payment-terms {
   max-width: 100%;
 }
 
-.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
+.one-half {
   width: 50%;
 }
 
-.custom__item-inner--video, .custom__item-inner--html {
+.custom__item-inner--html {
   display: block;
 }
 
-/* .custom__item-inner {
-  position: relative;
-  display: inline-block;
-  text-align: left;
-  max-width: 100%;
-} */
+.rte.text-center {
+  text-align: center;
+}
 
 .rte {
   margin-bottom: 15px;
