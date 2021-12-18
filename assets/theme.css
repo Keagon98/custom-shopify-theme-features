@@ -13820,6 +13820,7 @@ shopify-payment-terms {
   flex-wrap: wrap;
   width: auto;
   margin-bottom: 30px;
+  padding: 30px;
 }
 
 .align--top-middle {
@@ -13839,7 +13840,6 @@ shopify-payment-terms {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   margin-bottom: 30px;
-  padding: 30px;
   max-width: 100%;
 }
 
