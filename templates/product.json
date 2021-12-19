@@ -69,6 +69,14 @@
             "page": "",
             "display_mode": "show_all"
           }
+        },
+        "11f20a06-7c5f-4a23-8d26-72f10838ba4d": {
+          "type": "liquid",
+          "settings": {
+            "title": "Product Information",
+            "liquid": "{{ product.title }}\n{{ product.description }}",
+            "display_mode": "show_all"
+          }
         }
       },
       "block_order": [
@@ -80,7 +88,8 @@
         "b2544c6e-901f-4db1-8510-1c770d5bedc2",
         "9de40edf-467c-45fe-a4ab-255051d7a377",
         "8497a996-a79c-4f99-96c6-6add7363245f",
-        "a4125240-fd68-40ed-876d-0e3a1641b921"
+        "a4125240-fd68-40ed-876d-0e3a1641b921",
+        "11f20a06-7c5f-4a23-8d26-72f10838ba4d"
       ],
       "settings": {
         "image_size": "small",
