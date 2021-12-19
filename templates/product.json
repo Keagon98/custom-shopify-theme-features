@@ -74,8 +74,8 @@
           "type": "liquid",
           "settings": {
             "title": "Product Information",
-            "liquid": "{{ product.title }}\n{{ product.description }}",
-            "display_mode": "show_all"
+            "liquid": "{{ product.title }}\n{{ product.description }}\n\n{% for image in product.images %}\n  <img src=\"{{ image.src | product_img_url: 'Large' }}\">\n{% endfor %}",
+            "display_mode": "collapse"
           }
         }
       },
